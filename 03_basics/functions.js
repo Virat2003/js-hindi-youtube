@@ -106,24 +106,70 @@
 
 
 
-const array=[100,200,300,400,500]
-function returnarray(getarray){
-    return getarray[1]
+// const array=[100,200,300,400,500]
+// function returnarray(getarray){
+//     return getarray[1]
+// }
+// console.log(returnarray(array));
+
+// let virrr={
+//     id:"123abc",
+//     add:"axnbasjcbajb"
+// }
+
+// function myfunc(anything){
+// console.log(`id is ${anything.id} and add is ${anything.add}`);
+
+// }
+// myfunc(virrr)
+
+// myfunc({
+//     id:"vishal",
+//     add:"ajchgasjch"
+// })
+
+
+
+
+
+// function calculatePrice(...num1){
+// return num1
+// }
+
+// console.log(calculatePrice(1000,2000,3000,2115))
+
+
+
+// const usersss={
+//     nav:"virat",
+//     price:123
+// }
+
+
+//object in function
+function handleObject(anyobject){
+console.log(`username is ${anyobject.nav} and price is ${anyobject.price}`);
+
 }
-console.log(returnarray(array));
+// handleObject(usersss)
 
-let virrr={
-    id:"123abc",
-    add:"axnbasjcbajb"
-}
-
-function myfunc(anything){
-console.log(`id is ${anything.id} and add is ${anything.add}`);
-
-}
-myfunc(virrr)
-
-myfunc({
-    id:"vishal",
-    add:"ajchgasjch"
+handleObject({
+    nav:"aba",
+    price:45
 })
+
+
+
+//passing array in function
+let arrays=[100,200,300,400,500]
+function returnSecondValue(getArrays){
+    return getArrays[1]
+}
+console.log(returnSecondValue(arrays));
+
+
+
+
+
+
+
